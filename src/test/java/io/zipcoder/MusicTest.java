@@ -14,6 +14,10 @@ public class MusicTest {
         String selection = "cecelia";
         Integer expected = 2;
         Integer actual = music.selection(startingIndex, selection);
+
+        System.out.println(expected);
+        System.out.println(actual);
+
         Assert.assertEquals(expected, actual);
     }
 
@@ -26,6 +30,8 @@ public class MusicTest {
         String selection = "liveoak";
         Integer expected = 1;
         Integer actual = music.selection(startingIndex, selection);
+        System.out.println(expected);
+        System.out.println(actual);
         Assert.assertEquals(expected, actual);
     }
 }
